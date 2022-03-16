@@ -48,14 +48,14 @@ body {
   color: black;
 }
 
-.status-white {
-  grid-column: 2;
-  color: rgba(255, 255, 255, 0.8);
-}
-
 .status-black {
   grid-column: 2;
   color: rgba(0, 0, 0, 0.8);
+}
+
+.status-white {
+  grid-column: 2;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .h1-white {
@@ -70,14 +70,14 @@ body {
   padding: 20px 0;
 }
 
-.blockquote-black {
-  color: rgba(0, 0, 0, 0.8);
+.blockquote-white {
+  color: rgba(255, 255, 255, 0.6);
   text-align: left;
   font-size: 0.9rem;
 }
 
-.blockquote-white {
-  color: rgba(255, 255, 255, 0.6);
+.blockquote-black {
+  color: rgba(0, 0, 0, 0.8);
   text-align: left;
   font-size: 0.9rem;
 }
@@ -140,45 +140,23 @@ body {
   }
 
   .first {
-    background: linear-gradient(
-      152deg,
-      rgba(162, 0, 255, 1) 51%,
-      rgba(168, 3, 255, 1) 100%,
-      rgba(250, 250, 250, 1) 100%
-    );
-    padding: 20px;
     grid-column: 1;
-    border-radius: 10px;
   }
 
   .second {
-    padding: 20px;
-    background: linear-gradient(
-      152deg,
-      rgba(40, 67, 196, 1) 0%,
-      rgba(40, 67, 196, 1) 100%,
-      rgba(250, 250, 250, 1) 100%
-    );
-    border-radius: 10px;
+    grid-column: 1;
   }
 
   .thirt {
     grid-column: 1;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
+    grid-row: 3;
   }
 
   .fourty {
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
+    grid-column: 1;
   }
 
   .fifty {
     grid-column: 1;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
   }
 }
